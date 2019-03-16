@@ -159,7 +159,7 @@
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		text-transform: 0;
 		letter-spacing: 0.2rem;
 	}
 
