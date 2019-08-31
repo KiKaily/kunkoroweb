@@ -1592,3 +1592,15 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+		.nowpayments-link {
+			display: inline-block;
+			margin-top: 30px;
+			border-bottom: none;
+		}
+
+		.nowpayments-button { 
+			width: 150px;
+    	border-radius: 5px;
+			border: solid 1px #ffffff;
+		}
