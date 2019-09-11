@@ -240,7 +240,7 @@
 	}
 
 	code {
-		background: rgba(255, 255, 255, 0.075);
+		background: rgba(213, 70, 70, 0.075);
 		border-radius: 4px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
@@ -389,13 +389,13 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			background: rgba(255, 255, 255, 0.075);
+			background: rgba(213, 70, 70, 0.075);
 			border-color: #ffffff;
 			box-shadow: 0 0 0 1px #ffffff;
 		}
 
 	select option {
-		background: #1b1f22;
+		background: #D54646;
 		color: #ffffff;
 	}
 
@@ -1479,7 +1479,7 @@
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(90, 45, 45, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
