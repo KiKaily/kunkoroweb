@@ -188,7 +188,7 @@
 
 <!-- START - We recommend to place the below code where you want the form in your website html  -->
 <div class="sib-form" style="text-align: center;
-         background-color: #EFF2F7;                                 ">
+         background-color: transparent;                                 ">
   <div id="sib-form-container" class="sib-form-container">
     <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-width:px; border-color:#ff4949;max-width:540px; border-width:px;">
       <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
@@ -197,7 +197,7 @@
           />
         </svg>
         <span class="sib-form-message-panel__inner-text">
-                          No hemos podido validar su suscripción.
+                          No hemos podido validar tu suscripción.
                       </span>
       </div>
     </div>
@@ -209,23 +209,23 @@
           />
         </svg>
         <span class="sib-form-message-panel__inner-text">
-                          Se ha realizado su suscripción.
+                          Se ha realizado tu suscripción.
                       </span>
       </div>
     </div>
     <div></div>
-    <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid;">
-      <form id="sib-form" method="POST" action="https://31cf138f.sibforms.com/serve/MUIEAAh7EbHh8S71tn8-aD56-oqRwSANBlhVkY8LqJRUtIBSf_jrPmaMiYFrJwmXhspWwF3J2aVzgidNwF66lV6eprM24JKRo3bJh1Vt3pRJusLLLUiGe3CksHs7IHV_SeWOc7x46f01yxx3ZmATMNVa8jn1xjUtHaIR_xx9JkSLUo-yjcxjxKB6MpfN-2SWFxKxi4UBjUzE-f_g"
+    <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:transparent; max-width:540px; border-radius:4px; border-width:0px; border-color:#791427; border-style:solid;">
+      <form id="sib-form" method="POST" action="https://31cf138f.sibforms.com/serve/MUIEANccjCqPXfCPzKFZFgNA3FHOwCSXdzc2BM34CT306BwcUfGJ2nSgGDsTNo9prc8fG3MwVy9NpQnz2D4ex1xOUn2Oly0PiUWFDOFW_kVE7MYZHIJnxNszH08YgjubfP2GFXntP_mF6Rs42pVNLH_OmjXloBZJTxnQW94Yn_cbFkeA86DQTdx7Zqi9t9HeY9IktfP_AkGUwT2O"
         data-type="subscription">
         <div style="padding: 8px 0;">
-          <div class="sib-form-block" style="font-size:32px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent; border-width:px;">
-            <p>Newsletter</p>
+          <div class="sib-form-block" style="font-size:25px; text-align:center; font-weight:700; font-family:&quot;Trebuchet MS&quot;, sans-serif; color:#ffffff; background-color:transparent; border-width:px;">
+            <p>Lista de correo</p>
           </div>
         </div>
         <div style="padding: 8px 0;">
-          <div class="sib-form-block" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent; border-width:px;">
+          <div class="sib-form-block" style="font-size:16px; text-align:center; font-family:&quot;Trebuchet MS&quot;, sans-serif; color:#ffffff; background-color:transparent; border-width:px;">
             <div class="sib-text-form-block">
-              <p>Suscríbase a nuestra newsletter para recibir nuestras novedades.</p>
+              <p>Puedes apuntarte a nuestra lista de correo aquí para recibir nuestras noticias sin estar pendiente de nuestras redes sociales. Solo comunicamos noticias de gran relevancia, cuidando tu descanso informativo.&nbsp;</p>
             </div>
           </div>
         </div>
@@ -233,9 +233,21 @@
           <div class="sib-input sib-form-block">
             <div class="form__entry entry_block">
               <div class="form__label-row ">
-                <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858; border-width:px;" for="EMAIL" data-required="*">
-                  Introduzca su dirección de e-mail para suscribirse
-                </label>
+
+                <div class="entry__field">
+                  <input class="input" maxlength="200" type="text" id="NOMBRE" name="NOMBRE" autocomplete="off" placeholder="NOMBRE" data-required="true" required />
+                </div>
+              </div>
+
+              <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-width:px; border-color:#ff4949;">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-input sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row ">
 
                 <div class="entry__field">
                   <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL" data-required="true" required />
@@ -244,15 +256,12 @@
 
               <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-width:px; border-color:#ff4949;">
               </label>
-              <label class="entry__specification" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4; border-width:px;">
-                Introduzca su dirección de e-mail para suscribirse. Ej.: abc@xyz.com
-              </label>
             </div>
           </div>
         </div>
         <div style="padding: 8px 0;">
-          <div class="sib-form-block" style="text-align: left">
-            <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF; background-color:#3E4857; border-radius:3px; border-width:0px;"
+          <div class="sib-form-block" style="text-align: center">
+            <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px; text-align:center; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF; background-color:#931f11; border-radius:4px; border-width:0px;"
               form="sib-form" type="submit">
               <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
                 <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"
@@ -275,11 +284,11 @@
 <script>
   window.REQUIRED_CODE_ERROR_MESSAGE = 'Elija un código de país';
 
-  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "La información que ha proporcionado no es válida. Compruebe el formato del campo e inténtelo de nuevo.";
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "La información que has proporcionado no es válida. Comprueba el formato del campo e inténtalo de nuevo.";
 
   window.REQUIRED_ERROR_MESSAGE = "Este campo no puede quedarse vacío. ";
 
-  window.GENERIC_INVALID_MESSAGE = "La información que ha proporcionado no es válida. Compruebe el formato del campo e inténtelo de nuevo.";
+  window.GENERIC_INVALID_MESSAGE = "La información que has proporcionado no es válida. Comprueba el formato del campo e inténtalo de nuevo.";
 
 
 
@@ -291,7 +300,7 @@
     }
   };
 
-  var AUTOHIDE = Boolean(0);
+  var AUTOHIDE = Boolean(1);
 </script>
 <script src="https://sibforms.com/forms/end-form/build/main.js">
 </script>
