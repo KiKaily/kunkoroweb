@@ -1280,45 +1280,48 @@
 			border-radius: 4px;
 		}
 
-			#header nav ul li {
-				padding-left: 0;
-				border-left: solid 1px #D8D8D8;
-			}
-
-				#header nav ul li:first-child {
-					border-left: 0;
-				}
-
-				#header nav ul li a {
-					display: block;
-					min-width: 9rem;
-					height: 2.75rem;
-					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
-					text-transform: uppercase;
-					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
-					border-bottom: 0;
-				}
-
-					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
-					}
-
-					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
-					}
-
-		#header nav.use-middle:after {
-			content: '';
-			display: block;
-			position: absolute;
-			top: 0;
-			left: calc(50% - 1px);
-			width: 1px;
-			height: 100%;
-			background: #D8D8D8;
+		#header nav ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			justify-content: space-between; /* Adjusted to space-between */
 		}
+		
+		nav ul li {
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul li a {
+			display: block;
+			padding: 10px 15px;
+			text-decoration: none;
+			color: #D8D8D8; /* Changed to match the rest of the text */
+			background-color: transparent; /* Changed to transparent */
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+		
+		nav ul li a:hover {
+			background-color: rgba(255, 255, 255, 0.075); /* Adjusted to a light transparent color */
+		}
+		
+		nav ul li a:focus {
+			outline: none;
+			background-color: rgba(255, 255, 255, 0.175); /* Adjusted to a light transparent color */
+		}
+
+	#header > *:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: calc(-3.5rem - 1px);
+		left: calc(50% - 1px);
+		width: 1px;
+		height: calc(1.8rem + 0px + 1.8rem); /* Adjusted height to reach the nav */
+		background: #D8D8D8;
+	}
 
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
